@@ -15,9 +15,12 @@ export default function Home() {
             <button className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-3 rounded-lg font-semibold transition-colors">
               Browse Spices
             </button>
-            <button className="bg-white hover:bg-gray-50 text-orange-500 border-2 border-orange-500 px-8 py-3 rounded-lg font-semibold transition-colors">
+            <a
+              href="/signup"
+              className="bg-white hover:bg-gray-50 text-orange-500 border-2 border-orange-500 px-8 py-3 rounded-lg font-semibold transition-colors text-center"
+            >
               Sign Up
-            </button>
+            </a>
           </div>
         </div>
         <div className="absolute inset-0 -z-10 overflow-hidden">
