@@ -16,6 +16,12 @@ export default function Home() {
               Browse Spices
             </button>
             <a
+              href="/login"
+              className="bg-gray-100 hover:bg-gray-200 text-gray-700 px-8 py-3 rounded-lg font-semibold transition-colors text-center"
+            >
+              Sign In
+            </a>
+            <a
               href="/signup"
               className="bg-white hover:bg-gray-50 text-orange-500 border-2 border-orange-500 px-8 py-3 rounded-lg font-semibold transition-colors text-center"
             >
